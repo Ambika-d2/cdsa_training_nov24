@@ -4,6 +4,7 @@ int main()
 {
     char foodType = '\0';
     int choice = 0;
+    int endchoice = 1;
     puts("Welcome to Madurai Cafe");
     do
     {
@@ -48,8 +49,8 @@ int main()
             }
         }
         puts("Do you wish to have more? 1:Yes 2:No");
-        scanf("%d", &choice);
-    } while (choice != 1);
+        scanf("%d", &endchoice);
+    } while (endchoice != 1);
     puts("Thank you Visit again");
     return 0;
 }
